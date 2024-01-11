@@ -1,0 +1,60 @@
+.cards {
+  margin: 49px 24px;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: League Spartan;
+  font-size: 17px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  gap: 23px;
+}
+.card {
+  border-radius: 8px;
+  padding: 0 32px;
+  background: #512051;
+}
+
+.card-header span {
+  color: #ee69a4;
+}
+
+.mian-p {
+  font-weight: 500;
+  line-height: 22px; /* 129.412% */
+  padding: 24px 0 35px;
+  letter-spacing: -0.304px;
+}
+
+.head-p {
+  font-weight: 700;
+}
+img {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
+@media (min-width: 1000px) {
+  .cards {
+    max-width: 1445px;
+    flex-direction: row;
+    margin: 0 11%;
+    margin-top: 70px;
+  }
+  .card {
+    position: relative;
+  }
+  .sec {
+    top: 16px;
+  }
+  .thir {
+    top: 32px;
+  }
+}
